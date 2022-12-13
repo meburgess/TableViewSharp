@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Android.Support.V7.Util;
+using AndroidX.RecyclerView.Widget;
 using Com.Evrencoskun.Tableview.Adapter;
 
 namespace Com.Evrencoskun.Tableview.Sort

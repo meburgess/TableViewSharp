@@ -15,7 +15,7 @@
 *
 */
 
-using Android.Support.V7.Widget;
+using AndroidX.RecyclerView.Widget;
 
 
 namespace Com.Evrencoskun.Tableview.Adapter.Recyclerview.Holder

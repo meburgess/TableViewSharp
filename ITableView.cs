@@ -15,8 +15,8 @@
 *
 */
 
-using Android.Support.V7.Widget;
 using Android.Views;
+using AndroidX.RecyclerView.Widget;
 using Com.Evrencoskun.Tableview.Adapter;
 using Com.Evrencoskun.Tableview.Adapter.Recyclerview;
 using Com.Evrencoskun.Tableview.Handler;

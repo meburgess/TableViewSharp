@@ -18,8 +18,8 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Android.Support.V7.Util;
 using Android.Util;
+using AndroidX.RecyclerView.Widget;
 using Com.Evrencoskun.Tableview;
 using Com.Evrencoskun.Tableview.Adapter;
 using Com.Evrencoskun.Tableview.Adapter.Recyclerview;

@@ -16,8 +16,8 @@
 */
 
 using System.Collections.Generic;
-using Android.Support.V4.Util;
-using Android.Support.V7.Util;
+using AndroidX.Core.Util;
+using AndroidX.RecyclerView.Widget;
 using Com.Evrencoskun.Tableview.Adapter;
 
 namespace Com.Evrencoskun.Tableview.Sort

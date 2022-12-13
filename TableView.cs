@@ -20,9 +20,7 @@ using Android.Content;
 using Android.Content.Res;
 using Android.Graphics;
 using Android.OS;
-using Android.Support.Annotation;
-using Android.Support.V4.Content;
-using Android.Support.V7.Widget;
+using AndroidX.RecyclerView.Widget;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
@@ -38,6 +36,8 @@ using Com.Evrencoskun.Tableview.Preference;
 using Com.Evrencoskun.Tableview.Sort;
 using Com.Evrencoskun.Tableview.Util;
 using TableViewSharp;
+using AndroidX.Core.Content;
+using AndroidX.Annotations;
 
 namespace Com.Evrencoskun.Tableview
 {
@@ -711,7 +711,7 @@ namespace Com.Evrencoskun.Tableview
             }
 
             DividerItemDecoration itemDecoration = new DividerItemDecoration(Context, orientation);
-            itemDecoration.SetDrawable(divider);
+            itemDecoration.Drawable = divider;
             return itemDecoration;
         }
 

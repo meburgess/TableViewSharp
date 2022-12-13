@@ -16,7 +16,7 @@
 */
 
 using Android.Content;
-using Android.Support.V7.Widget;
+using AndroidX.RecyclerView.Widget;
 using Android.Util;
 using Com.Evrencoskun.Tableview;
 using Com.Evrencoskun.Tableview.Listener.Scroll;
